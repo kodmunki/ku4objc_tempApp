@@ -374,10 +374,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/lib/$(CONFIGURATION)",
-					"$(PROJECT_DIR)/lib/Release",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/lib/$(CONFIGURATION)";
 				INFOPLIST_FILE = ku4objc_tempApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/lib/$(CONFIGURATION)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,10 +386,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/lib/$(CONFIGURATION)",
-					"$(PROJECT_DIR)/lib/Release",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/lib/$(CONFIGURATION)";
 				INFOPLIST_FILE = ku4objc_tempApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/lib/$(CONFIGURATION)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
